@@ -1,0 +1,27 @@
+p{
+  text-align:center;
+  color: rgb(255,131,98);
+  font-size: 30px;
+}
+
+body{
+  background-color: aliceblue;
+}
+ p.heading{
+   color: rgb(255,131,98);
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+ }
+ button{
+   font-family: Times new 'Times New Roman', Times, serif;
+   font-size: 20px;
+   background-position:center;
+   background-color: white;
+   padding: 15px 32px;
+
+ }
+
+ table{
+   align-items:center;
+ }

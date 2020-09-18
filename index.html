@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <p class = "heading"> Tic-Tac-Toe!</p>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <table align= "center">
+      <tr>
+        <td>  <button id = "1" onclick = 'document.getElementById("1").innerHTML = play("1")'>1 </button> </td>
+        <td> <button id = "2" onclick = 'document.getElementById("2").innerHTML = play("2")'> 2</button>  </td>
+        <td>  <button id = "3" onclick = 'document.getElementById("3").innerHTML = play("3")'>3 </button> </td>
+      </tr>
+      <tr> 
+        <td  > <button id = "4" onclick = 'document.getElementById("4").innerHTML = play("4")'> 4</button> </td>
+        <td> <button id = "5" onclick = 'document.getElementById("5").innerHTML = play("5")'> 5</button> </td>
+        <td> <button id = "6" onclick = 'document.getElementById("6").innerHTML = play("6")'> 6</button> </td>
+      </tr> 
+
+      <tr>
+         <td  > <button id = "7" onclick = 'document.getElementById("7").innerHTML = play("7")'> 7</button> </td>
+        <td> <button id = "8" onclick = 'document.getElementById("8").innerHTML = play("8")'> 8</button> </td>
+        <td> <button id = "9" onclick = 'document.getElementById("9").innerHTML = play("9")'> 9</button> </td>
+      </tr>
+
+    </table>
+
+    <p id = "pStat" document.getElementById("pStat").innerHTML = checkStatus()> Idle</p>
+  </body>
+</html>
